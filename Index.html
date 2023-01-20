@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Aspecto.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="file:///C:/Users/chiva/Documents/Cursos%20Analista/HTML%20Y%20CSS/Desafio/Index.html"><img src="logo.png"></a></h1>
+        </header>
+        <main>
+            <input type="text" id="ingreso" class="ingreso" placeholder="Ingrese el texto aqui." required/>
+            <button id="encriptar" class="encriptar">Encriptar</button>
+            <button id="desencriptar" class="desencriptar">Desencriptar</button>
+            <textarea id="fondoTextoResuelto" class="fondoTextoResuelto" disabled></textarea>
+            <textarea id="encontrado" class="encontrado" disabled>Ningún mensaje fue encontrado</textarea>
+            <textarea id="instruccion" class="instruccion" disabled>Ingresa el texto que desees encriptar o desencriptar.</textarea>
+            <img id="muneco" class="muneco" src="Muñeco.png">
+            <p id="restriccion" class="restriccion"><img id="vector" class="vector"src="Vector.png">Solo letras minúsculas y sin acentos</p>
+            <button id="copiar" class="copiar">Copiar</button>
+            <textarea id="texto" class="texto" disabled></textarea>
+        </main>
+    </body>    
+</html>
+<script src="funciones.js"></script>
