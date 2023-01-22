@@ -11,7 +11,7 @@
 
     function encriptar(){
         if (textoIngresado.value==''){
-            alert('No ha escrito nada para trabajar en ello, por favor deme trabajo.');
+            alert('No ha escrito nada para trabajar en ello, por favor denme trabajo.');
         }
         else{
             let texto=textoIngresado.value;
